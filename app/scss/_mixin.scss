@@ -1,0 +1,8 @@
+// @function rem($px) {
+//   @return $px/18px + 0rem;
+// } ;
+
+@mixin bebas {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+}

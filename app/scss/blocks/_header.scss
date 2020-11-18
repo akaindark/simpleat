@@ -1,0 +1,36 @@
+.header {
+  background-color: $greenLight;
+
+  a {
+    color: $blackText;
+  }
+
+  &__inner {
+    height: 10.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav-list {
+    display: flex;
+  }
+  &__cart {
+    margin-right: 2.8rem;
+    padding-left: 2.9rem;
+
+    &::before {
+      content: '';
+      background: url('../../images/dest/icons/cart.png') 0 0 / cover no-repeat;
+      width: 2.6rem;
+      height: 2.4rem;
+      left: 0;
+      top: 0;
+    }
+  }
+  &__box {
+    display: flex;
+  }
+  &__log {
+    margin-right: 2.8rem;
+  }
+}
